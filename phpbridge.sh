@@ -16,7 +16,7 @@ $packages = [
 ]
 
 for package in $packages; do
-	sudo apti-get install $package
+	sudo apti-get install $package -y
 
 # Install PHP Composer
 curl -sS https://getcomposer.org/installer | php
