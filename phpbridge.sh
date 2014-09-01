@@ -27,10 +27,5 @@ sudo mv composer.phar /usr/local/bin/composer
 # Install and configure psysh
 composer g require psy/psysh:~0.1
 
-echo <<-PSYSH_PATH
-     # set PATH so it recognizes executables installed via Composer
-     if [ -d "$HOME/.composer/vendor/bin" ] ; then
-         PATH="$HOME/.composer/vendor/bin:$PATH"
-     fi
-PSYSH_PATH
->> ~/.profile
+# Set up .bash_profile
+sh ./bashProfileSetup.sh
