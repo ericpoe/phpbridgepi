@@ -19,4 +19,6 @@ Internet. Data charges may apply.
     * __git:__ version/source control
     * __psysh:__ A runtime developer console, interactive debugger and REPL for PHP
     * __TightVncServer:__ A simple-to use VNC server
+    * __Vim:__ A lightweight, powerful text editor.
+      * __gVim:__ GUI for vim
     * __Xdebug:__ PHP debugger and profiler

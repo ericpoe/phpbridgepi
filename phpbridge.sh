@@ -13,6 +13,7 @@ packages=(
     php5-xdebug
     mysql-client
     mysql-server
+    vim-gnome
 )
 
 for package in "${packages[@]}"
