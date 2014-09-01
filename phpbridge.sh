@@ -27,7 +27,7 @@ curl -sS https://getcomposer.org/installer | php
 sudo mv composer.phar /usr/local/bin/composer
 
 # Install and configure psysh
-composer g require psy/psysh:~0.1
+sh ./psyshInstall.sh
 
 # Set up .bash_profile
 sh ./bashProfileSetup.sh
