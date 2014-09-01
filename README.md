@@ -14,10 +14,12 @@ Internet. Data charges may apply.
     * __mysql 5.5__
     * __php 5.4:__ latest version of PHP available for Raspbian
 * __Some Extras:__
+    * __aptitude:__ a front-end for debian's apt
     * __composer:__ dependency manager for PHP
     * __gedit:__ text-editor
     * __git:__ version/source control
     * __psysh:__ A runtime developer console, interactive debugger and REPL for PHP
+    * __sqlite__
     * __TightVncServer:__ A simple-to use VNC server
     * __Vim:__ A lightweight, powerful text editor.
       * __gVim:__ GUI for vim

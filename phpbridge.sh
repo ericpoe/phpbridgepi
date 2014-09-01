@@ -10,6 +10,7 @@ packages=(
     apache2
     php5
     php5-cli
+    php5-sqlite
     php5-xdebug
     mysql-client
     mysql-server
