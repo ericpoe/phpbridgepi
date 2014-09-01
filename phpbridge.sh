@@ -1,22 +1,24 @@
 #! /bin/bash
 # Install applications and files to Raspberry Pi that are needed for PHPBridge
 
-$packages = [
+packages=(
     aptitude
-	tightvncserver
-	gedit
-	gedit-source-code-browser-plugin
-	git
-	apache2
-	php5
-	php5-cli
-	php5-xdebug
-	mysql-client
-	mysql-server
-]
+    tightvncserver
+    gedit
+    gedit-source-code-browser-plugin
+    git
+    apache2
+    php5
+    php5-cli
+    php5-xdebug
+    mysql-client
+    mysql-server
+)
 
-for package in $packages; do
-	sudo apti-get install $package
+for package in "${packages[@]}"
+    do
+	sudo apt-get install $package -y
+    done
 
 # Install PHP Composer
 curl -sS https://getcomposer.org/installer | php
