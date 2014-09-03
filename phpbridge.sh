@@ -7,9 +7,9 @@ packages=(
     gedit
     gedit-source-code-browser-plugin
     git
-    apache2
     php5
     php5-cli
+    php5-mysql
     php5-sqlite
     php5-xdebug
     mysql-client

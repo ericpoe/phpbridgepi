@@ -10,7 +10,7 @@ Internet. Data charges may apply.
 ##Features##
 * __LAMP:__
     * __Linux:__ [Raspbian](http://www.raspbian.org/)
-    * __apache 2.2__
+    * _Apache:_ __Apache NOT installed by default__ See note below
     * __mysql 5.5__
     * __php 5.4:__ latest version of PHP available for Raspbian
 * __Some Extras:__
@@ -24,3 +24,14 @@ Internet. Data charges may apply.
     * __Vim:__ A lightweight, powerful text editor.
       * __gVim:__ GUI for vim
     * __Xdebug:__ PHP debugger and profiler
+
+##No web server? What gives?##
+Starting with PHP 5.4, a separate web server is no longer needed for testing and
+creating web pages in a local development environment. The PHPBridge Curriculum
+even recommends using PHP's built-in web server for development work.
+ex. `php -S 0.0.0.0:8080 -t /path/to/my/web/directory/`
+
+If you still want a full-blown web server, you can easily install one via aptitude
+or apt-get:
+Apache: `sudo aptitude install apache2`
+nginx `sudo aptitude install `nginx php5-fpm`
