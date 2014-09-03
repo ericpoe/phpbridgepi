@@ -33,5 +33,16 @@ ex. `php -S 0.0.0.0:8080 -t /path/to/my/web/directory/`
 
 If you still want a full-blown web server, you can easily install one via aptitude
 or apt-get:
+
 Apache: `sudo aptitude install apache2`
-nginx `sudo aptitude install nginx php5-fpm`
+
+nginx: `sudo aptitude install nginx php5-fpm`
+
+##Easy Way to Connect to the Pi##
+1. SSH into the PI:
+  * This will start the VNC Server
+  * `ssh pi@IP-Address`
+  * Ex. Chrome Plugin: [Secure Shell](https://chrome.google.com/webstore/detail/secure-shell/pnhechapfaindjhompbnflcldabbghjo?hl=en)
+2. VNC into the the PI:
+  * VNC address: `ip-address:1`
+  * Ex. Chrome Plugin: [VNC Viewer](https://chrome.google.com/webstore/detail/vnc%C2%AE-viewer-for-google-ch/iabmpiboiopbgfabjmgeedhcmjenhbla?hl=en)
