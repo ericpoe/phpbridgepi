@@ -34,4 +34,4 @@ ex. `php -S 0.0.0.0:8080 -t /path/to/my/web/directory/`
 If you still want a full-blown web server, you can easily install one via aptitude
 or apt-get:
 Apache: `sudo aptitude install apache2`
-nginx `sudo aptitude install `nginx php5-fpm`
+nginx `sudo aptitude install nginx php5-fpm`
