@@ -41,7 +41,7 @@ nginx: `sudo aptitude install nginx php5-fpm`
 ##Easy Way to Connect to the Pi##
 1. SSH into the PI:
   * This will start the VNC Server
-  * `ssh pi@IP-Address`
+  * `ssh pi@ip-address`
   * Ex. Chrome Plugin: [Secure Shell](https://chrome.google.com/webstore/detail/secure-shell/pnhechapfaindjhompbnflcldabbghjo?hl=en)
 2. VNC into the the PI:
   * VNC address: `ip-address:1`
