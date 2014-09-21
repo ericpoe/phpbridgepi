@@ -24,9 +24,9 @@ options=(
 select opt in "${options[@]}"
 do
     case $opt in
-    	"en  English")
-    	    echo "You chose English"
-    	    curl -o ~/.psysh/php_manual.sqlite "http://psysh.org/manual/en/php_manual.sqlite"
+        "en  English")
+            echo "You chose English"
+            curl -o ~/.psysh/php_manual.sqlite "http://psysh.org/manual/en/php_manual.sqlite"
             break ;;
         "pt  Brazilian Portuguese")
             echo "You chose Brazilian Portuguese"
@@ -76,7 +76,7 @@ do
             echo "You chose Turkish"
             curl -o ~/.psysh/php_manual.sqlite "http://psysh.org/manual/tr/php_manual.sqlite"
             break ;;
-	     *)
-	        echo "Invalid option. Please choose a number from 1 to 13. " ;;
+        *)
+            echo "Invalid option. Please choose a number from 1 to 13. " ;;
     esac
 done
