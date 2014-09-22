@@ -31,3 +31,6 @@ sh ./psyshInstall.sh
 
 # Set up .bash_profile
 sh ./bashProfileSetup.sh
+
+# Set up Samba
+sh ./samba-install.sh
