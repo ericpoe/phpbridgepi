@@ -18,10 +18,13 @@ sudo tee -a /etc/samba/smb.conf >/dev/null <<SMB_CONF
     public=no
 SMB_CONF
 
-## Create a password for the pi user to use to access the Pi home folder via
- # Samba.
+# Create a password for the pi user to use to access the Pi home folder via
+# Samba.
 echo -e "\nWhen the pi user tries to access the Pi home directory from another
 computer, you will need to use a password. (suggestion: use the same password
 that Pi uses to log in to the Raspberry Pi)\n"
 
 sudo smbpasswd -a pi
+
+# Restart Samba
+sudo /etc/init.d/samba restart
