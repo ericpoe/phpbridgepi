@@ -18,7 +18,10 @@ Internet. Data charges may apply.
     * __composer:__ dependency manager for PHP
     * __gedit:__ text-editor
     * __git:__ version/source control
-    * __psysh:__ A runtime developer console, interactive debugger and REPL for PHP
+    * __psysh:__ A runtime developer console, interactive debugger and REPL for
+    PHP
+    * __samba:__ A server that allows Windows, OS X, Linux machines and others
+    to mount a shared drive to the linux box.
     * __sqlite__
     * __TightVncServer:__ A simple-to use VNC server
     * __Vim:__ A lightweight, powerful text editor.
